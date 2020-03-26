@@ -1,5 +1,4 @@
-package com.codepath.simplegame;
-
+package com.codepath;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -9,9 +8,8 @@ import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
-
-import com.codepath.simplegame.threads.BaseGameThread;
-import com.codepath.simplegame.threads.TimerGameThread;
+import com.codepath.threads.BaseGameThread;
+import com.codepath.threads.TimerGameThread;
 
 public abstract class AbstractGamePanel extends SurfaceView implements SurfaceHolder.Callback {
 	private BaseGameThread gameThread;

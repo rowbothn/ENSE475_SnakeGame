@@ -1,9 +1,8 @@
-package com.codepath.simplegame.threads;
+package com.codepath.threads;
 
 import android.graphics.Canvas;
 import android.view.SurfaceHolder;
-
-import com.codepath.simplegame.AbstractGamePanel;
+import com.codepath.AbstractGamePanel;
 
 public class TimerGameThread extends BaseGameThread {
     private int tickInterval;

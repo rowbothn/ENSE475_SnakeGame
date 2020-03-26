@@ -1,4 +1,4 @@
-package com.codepath.simplegame;
+package com.codepath;
 
 public class Velocity {
 	public static final int DIRECTION_RIGHT	= 1;

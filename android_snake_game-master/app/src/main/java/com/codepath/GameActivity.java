@@ -1,4 +1,4 @@
-package com.codepath.simplegame;
+package com.codepath;
 
 import android.app.Activity;
 import android.os.Bundle;

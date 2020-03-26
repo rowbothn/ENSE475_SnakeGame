@@ -1,7 +1,6 @@
 package com.codepath.examples.basicsnakegame;
 
 import java.util.ArrayList;
-
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -10,10 +9,9 @@ import android.graphics.Point;
 import android.graphics.Rect;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
-
-import com.codepath.simplegame.AbstractGamePanel;
-import com.codepath.simplegame.Velocity;
-import com.codepath.simplegame.actors.SimpleMovingActor;
+import com.codepath.AbstractGamePanel;
+import com.codepath.Velocity;
+import com.codepath.actors.SimpleMovingActor;
 
 public class SnakeActor extends SimpleMovingActor {
 	public static final int DRAW_SIZE = 25;

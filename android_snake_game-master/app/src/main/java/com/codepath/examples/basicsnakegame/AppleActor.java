@@ -4,9 +4,8 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Paint.Style;
-
-import com.codepath.simplegame.AbstractGamePanel;
-import com.codepath.simplegame.actors.PositionedActor;
+import com.codepath.AbstractGamePanel;
+import com.codepath.actors.PositionedActor;
 
 public class AppleActor extends PositionedActor {
 	

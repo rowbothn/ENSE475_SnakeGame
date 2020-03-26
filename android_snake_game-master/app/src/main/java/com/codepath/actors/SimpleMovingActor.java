@@ -1,6 +1,6 @@
-package com.codepath.simplegame.actors;
+package com.codepath.actors;
 
-import com.codepath.simplegame.Velocity;
+import com.codepath.Velocity;
 
 public abstract class SimpleMovingActor extends PositionedActor {
 	private Velocity velocity;

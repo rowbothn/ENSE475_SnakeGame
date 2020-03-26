@@ -6,8 +6,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
-
-import com.codepath.simplegame.AbstractGamePanel;
+import com.codepath.AbstractGamePanel;
 
 public class SnakeGamePanel extends AbstractGamePanel {
 

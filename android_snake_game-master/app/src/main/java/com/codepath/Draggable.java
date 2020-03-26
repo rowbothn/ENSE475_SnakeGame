@@ -1,4 +1,4 @@
-package com.codepath.simplegame;
+package com.codepath;
 
 public interface Draggable {
 	public boolean isTouched();

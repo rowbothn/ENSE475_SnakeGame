@@ -1,10 +1,9 @@
 package com.codepath.examples.basicsnakegame;
+
 import android.graphics.Canvas;
 import android.graphics.Paint;
-
-import com.codepath.simplegame.AbstractGamePanel;
-import com.codepath.simplegame.actors.PositionedActor;
-
+import com.codepath.AbstractGamePanel;
+import com.codepath.actors.PositionedActor;
 
 public class ScoreBoard extends PositionedActor {
 	private int score;

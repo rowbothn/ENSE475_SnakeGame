@@ -1,7 +1,6 @@
-package com.codepath.simplegame.threads;
+package com.codepath.threads;
 
-import com.codepath.simplegame.AbstractGamePanel;
-
+import com.codepath.AbstractGamePanel;
 import android.view.SurfaceHolder;
 
 public abstract class BaseGameThread extends Thread {

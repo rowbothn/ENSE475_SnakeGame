@@ -1,4 +1,4 @@
-package com.codepath.simplegame.actors;
+package com.codepath.actors;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;

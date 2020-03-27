@@ -9,7 +9,7 @@ public class GameActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		// switchFullscreen();
+		switchFullscreen();
 	}
 
 	// Set the view as full screen to hide the actionbar

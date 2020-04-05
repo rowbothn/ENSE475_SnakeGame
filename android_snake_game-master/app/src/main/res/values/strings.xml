@@ -16,4 +16,10 @@
     <string name="cancel">Cancel</string>
     <string name="difficulty">Difficulty:</string>
 
+    <string-array name="difficulty_array">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
 </resources>

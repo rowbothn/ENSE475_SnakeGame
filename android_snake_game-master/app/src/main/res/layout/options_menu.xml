@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkGrey">
+
+    <TextView
+        android:id="@+id/optionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/option_title"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/difficultyText"
+        android:layout_width="@dimen/startMenu_button_width"
+        android:layout_height="@dimen/startMenu_button_height"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="28dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/difficulty"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/planets_spinner"
+        android:layout_width="@dimen/startMenu_button_width"
+        android:layout_height="@dimen/startMenu_button_height"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="@dimen/startMenu_button_width"
+        android:layout_height="@dimen/startMenu_button_height"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="250dp"
+        android:background="@color/colorGrey"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="@dimen/startMenu_button_width"
+        android:layout_height="@dimen/startMenu_button_height"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="230dp"
+        android:background="@color/colorGrey"
+        android:text="@string/cancel" />
+
+</RelativeLayout>

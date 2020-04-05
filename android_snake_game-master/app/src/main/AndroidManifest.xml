@@ -30,6 +30,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.codepath.proj_Code.MainActivity" />
         </activity>
+
+        <activity
+            android:name="com.codepath.proj_Code.OptionsActivity"
+            android:label="@string/title_activity_second"
+            android:parentActivityName="com.codepath.proj_Code.MainActivity" >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.codepath.proj_Code.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

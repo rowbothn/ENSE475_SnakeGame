@@ -20,11 +20,20 @@
     <Button
         android:id="@+id/startButton"
         style="@android:style/Widget.Material.Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
+        android:layout_width="@dimen/startMenu_button_width"
+        android:layout_height="@dimen/startMenu_button_height"
         android:layout_marginTop="275dp"
         android:background="@color/colorGrey"
+        android:layout_centerHorizontal="true"
         android:text="@string/play" />
+
+    <Button
+        android:id="@+id/optionButton"
+        android:layout_width="@dimen/startMenu_button_width"
+        android:layout_height="@dimen/startMenu_button_height"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorGrey"
+        android:text="@string/options" />
 
 </RelativeLayout>

@@ -37,15 +37,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.codepath.proj_Code.MainActivity" />
         </activity>
-<<<<<<< Updated upstream
-=======
-
-        <activity android:name=".PauseWindow"></activity>
 
         <uses-library android:name="android.test.runner"/>
         <uses-library android:name="android.test.base" android:required="false" />
         <uses-library android:name="android.test.mock" android:required="false" />
->>>>>>> Stashed changes
+
     </application>
 
 </manifest>

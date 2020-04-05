@@ -1,15 +1,7 @@
 package com.codepath.proj_Code;
 
-import android.app.Activity;
-
-import androidx.test.core.app.ActivityScenario;
 import androidx.test.ext.junit.rules.ActivityScenarioRule;
-import androidx.test.rule.UiThreadTestRule;
-
-import com.codepath.AbstractGamePanel;
 import com.codepath.examples.basicsnakegame.R;
-import com.codepath.examples.basicsnakegame.SnakeGamePanel;
-import com.codepath.threads.TimerGameThread;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -17,10 +9,7 @@ import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
-import static androidx.test.espresso.matcher.ViewMatchers.withClassName;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
-import static androidx.test.espresso.matcher.ViewMatchers.withText;
-import static org.hamcrest.Matchers.equalTo;
 
 public final class MainActivityTest
 {

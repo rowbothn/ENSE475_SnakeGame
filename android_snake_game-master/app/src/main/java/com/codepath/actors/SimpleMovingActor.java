@@ -10,7 +10,7 @@ public abstract class SimpleMovingActor extends PositionedActor {
 		this.velocity = new Velocity();
 	}
 	
-	public SimpleMovingActor(int x, int y, int width, int height) { 
+	public SimpleMovingActor(int x, int y, int width, int height) {
 		this(x, y);
 		this.setDimensions(width, height);
 	}

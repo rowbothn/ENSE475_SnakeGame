@@ -30,7 +30,7 @@
         android:textSize="18sp" />
 
     <Spinner
-        android:id="@+id/planets_spinner"
+        android:id="@+id/difficultySpinner"
         android:layout_width="@dimen/startMenu_button_width"
         android:layout_height="@dimen/startMenu_button_height"
         android:layout_marginTop="180dp"

@@ -15,7 +15,7 @@ import com.codepath.actors.SimpleMovingActor;
 
 public class SnakeActor extends SimpleMovingActor {
 	public static final int DRAW_SIZE = 25;
-	public static final int STEP = 25;
+	public static int STEP = 25;
 	public ArrayList<Point> tailPos;
 
 	public SnakeActor(int x, int y) {
@@ -97,5 +97,10 @@ public class SnakeActor extends SimpleMovingActor {
 				getVelocity().stop().setXDirection(Velocity.DIRECTION_RIGHT).setXSpeed(STEP);
 			}
 		}
+	}
+
+	public void setSTEP(int step)
+	{
+		this.STEP = step;
 	}
 }

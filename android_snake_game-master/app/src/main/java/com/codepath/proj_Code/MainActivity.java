@@ -16,8 +16,6 @@ public class MainActivity extends Activity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //before activity is created : cold start
-        //switch back to original Theme (App Theme)
         setTheme(R.style.AppTheme);
 
         //switchFullscreen();

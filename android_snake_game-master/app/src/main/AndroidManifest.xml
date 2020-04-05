@@ -41,6 +41,22 @@
                 android:value="com.codepath.proj_Code.MainActivity" />
         </activity>
 
+        <activity android:name="com.codepath.proj_Code.RankActivity"
+            android:label="SnakeGame"
+            android:parentActivityName="com.codepath.proj_Code.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.codepath.proj_Code.MainActivity"/>
+        </activity>
+
+        <activity android:name="com.codepath.proj_Code.GameOver"
+            android:label="SnakeGame"
+            android:parentActivityName="com.codepath.examples.basicsnakegame.SnakeGamePanel">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.codepath.proj_Code.MainActivity"/>
+        </activity>
+
         <activity android:name=".PauseWindow"></activity>
 
     </application>

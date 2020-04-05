@@ -4,9 +4,6 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <!--<uses-sdk android:targetSdkVersion="17" />-->
-
-    <!--android:name="com.codepath.examples.basicsnakegame.SnakeGameActivity"-->
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -40,8 +37,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.codepath.proj_Code.MainActivity" />
         </activity>
-
-        <activity android:name=".PauseWindow"></activity>
+      
+        <uses-library android:name="android.test.runner"/>
+        <uses-library android:name="android.test.base" android:required="false" />
+        <uses-library android:name="android.test.mock" android:required="false" />
 
     </application>
 

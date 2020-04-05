@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Game Over"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/Retry"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="@dimen/startMenu_button_width"
+        android:layout_height="@dimen/startMenu_button_height"
+        android:layout_marginTop="275dp"
+        android:background="@color/colorGrey"
+        android:layout_centerHorizontal="true"
+        android:text="Try Again" />
+
+
+</RelativeLayout>

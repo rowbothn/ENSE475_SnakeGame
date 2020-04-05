@@ -4,4 +4,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
+    <dimen name="startMenu_button_width">120dp</dimen>
+    <dimen name="startMenu_button_height">50dp</dimen>
+
 </resources>

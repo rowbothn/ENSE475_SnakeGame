@@ -1,5 +1,6 @@
 package com.codepath.proj_Code;
 
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.widget.Button;
 import android.view.View;
@@ -27,8 +28,17 @@ public class MainActivity extends Activity
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, SnakeGameActivity.class);
-                startActivity(intent);
+                Intent startIntent = new Intent(MainActivity.this, SnakeGameActivity.class);
+                startActivity(startIntent);
+            }
+        });
+
+        Button optionsBtn = (Button) findViewById(R.id.optionButton);
+        optionsBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent optionsIntent = new Intent(MainActivity.this, OptionsActivity.class);
+                startActivity(optionsIntent);
             }
         });
     }

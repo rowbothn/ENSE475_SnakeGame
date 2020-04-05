@@ -40,6 +40,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.codepath.proj_Code.MainActivity" />
         </activity>
+
+        <activity android:name=".PauseWindow"></activity>
+
     </application>
 
 </manifest>

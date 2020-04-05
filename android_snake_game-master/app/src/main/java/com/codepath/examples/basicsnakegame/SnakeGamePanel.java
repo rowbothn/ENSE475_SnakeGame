@@ -1,11 +1,19 @@
 package com.codepath.examples.basicsnakegame;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.view.Gravity;
 import android.view.KeyEvent;
+import android.view.LayoutInflater;
 import android.view.MotionEvent;
+import android.widget.PopupMenu;
+import android.widget.PopupWindow;
+import android.widget.RelativeLayout;
+import android.os.Bundle;
+
 import com.codepath.AbstractGamePanel;
 
 public class SnakeGamePanel extends AbstractGamePanel {
@@ -61,8 +69,9 @@ public class SnakeGamePanel extends AbstractGamePanel {
 		if (keyCode == KeyEvent.KEYCODE_G) {
 			this.onStart();
 		}
-		if (keyCode == KeyEvent.KEYCODE_P) {
+		if (keyCode == KeyEvent.KEYCODE_R) {
 			isPaused = !isPaused;
+			pausePopupScreen();
 		}
 		return true;
 	}
@@ -76,4 +85,12 @@ public class SnakeGamePanel extends AbstractGamePanel {
 		return false;
 	}
 
+	@SuppressLint("ResourceType")
+	public void pausePopupScreen()
+	{
+		RelativeLayout layout =  (RelativeLayout) findViewById(R.id.pauseLayout);
+		PopupMenu popup = new PopupMenu(this.getContext(), layout);
+		popup.getMenuInflater().inflate(R.layout.pause_screen, popup.getMenu());
+		popup.show();
+	}
 }

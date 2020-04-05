@@ -12,9 +12,12 @@
     <string name="play">Start Game</string>
 
     <string name="options">Options</string>
+    <string name="rank">Rank</string>
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
     <string name="difficulty">Difficulty:</string>
+    <string name="rankDate">Date</string>
+    <string name="rankPoint">Point</string>
 
     <string-array name="difficulty_array">
         <item>Easy</item>

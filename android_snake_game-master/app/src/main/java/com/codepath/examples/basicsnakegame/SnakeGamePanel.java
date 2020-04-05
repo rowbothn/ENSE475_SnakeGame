@@ -2,6 +2,7 @@ package com.codepath.examples.basicsnakegame;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -15,6 +16,8 @@ import android.widget.RelativeLayout;
 import android.os.Bundle;
 
 import com.codepath.AbstractGamePanel;
+import com.codepath.proj_Code.GameOver;
+import com.codepath.proj_Code.MainActivity;
 
 public class SnakeGamePanel extends AbstractGamePanel {
 
@@ -60,6 +63,8 @@ public class SnakeGamePanel extends AbstractGamePanel {
 			p.setTextSize(50);
 			p.setColor(Color.BLACK);
 			canvas.drawText("Game over!", 100, 100, p);
+			Intent gameOver = new Intent(getContext(), GameOver.class);
+			getContext().startActivity(gameOver);
 		}
 	}
 

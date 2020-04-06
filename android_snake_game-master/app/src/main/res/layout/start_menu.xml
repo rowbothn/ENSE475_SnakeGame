@@ -37,4 +37,13 @@
         android:background="@color/colorGrey"
         android:text="@string/options" />
 
+    <Button
+        android:id="@+id/rankButton"
+        android:layout_width="@dimen/startMenu_button_width"
+        android:layout_height="@dimen/startMenu_button_height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="405dp"
+        android:background="#A9A9A9"
+        android:text="@string/rank" />
+
 </RelativeLayout>

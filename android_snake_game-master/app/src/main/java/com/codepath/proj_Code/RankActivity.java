@@ -14,7 +14,6 @@ public class RankActivity extends Activity implements AdapterView.OnItemSelected
         super.onCreate(savedInstanceState);
         setTheme(R.style.AppTheme);
         setContentView(R.layout.rank_menu);
-
     }
 
     @Override
